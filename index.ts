@@ -4,7 +4,7 @@ import router  from './routes/routes';
 import  cors from 'cors';
 import bodyParse from 'body-parser';
 
-const server = new Server();
+const server = Server.instance;
 
 //BodyParser
 
